@@ -10,7 +10,7 @@ jobs:
   release:
     uses: autumn-library/workflows/.github/workflows/release.yml@main
     with:
-      package_mask: "prometheus-lib-*.ospx"
+      package_mask: "prometheus-*.ospx"
     secrets:
       PUSH_TOKEN: ${{ secrets.PUSH_TOKEN }}
       

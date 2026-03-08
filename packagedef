@@ -3,11 +3,11 @@
 // Реестр, Counter/Gauge/Histogram/Summary, Vec, сериализация в text format.
 ////////////////////////////////////////////////////////////
 
-Описание.Имя("prometheus-lib")
+Описание.Имя("prometheus")
     .Версия("1.0.0")
     .Автор("Ivan Karlo")
     .АдресАвтора("i.karlo@outlook.com")
-    .АдресРепозитория("https://github.com/yellow-hammer/prometheus-lib")
+    .АдресРепозитория("https://github.com/yellow-hammer/prometheus")
     .Описание("Библиотека сбора метрик Prometheus для OneScript: реестр, Counter/Gauge/Histogram/Summary, Vec, сериализация в text format. Без HTTP.")
     .ВерсияСреды("2.0.0")
 

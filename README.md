@@ -1,10 +1,13 @@
-# prometheus-lib
+# prometheus
 
-Библиотека сбора метрик Prometheus для OneScript: реестр коллекторов, типы метрик (Counter, Gauge, Histogram, Summary), Vec-варианты с лейблами и сериализация в [Prometheus Text Format](https://prometheus.io/docs/instrumenting/exposition_formats/). **Без HTTP** — только логика накопления и сбора метрик. HTTP-сервис отдачи метрик (например, эндпоинт `/metrics`) планируется отдельно (с помощью [Autumn и Winow](https://autumn-library.github.io/)).
+Библиотека сбора метрик Prometheus для OneScript: реестр коллекторов, типы метрик (Counter, Gauge, Histogram,
+Summary), Vec-варианты с лейблами и сериализация в [Prometheus Text Format](https://prometheus.io/docs/instrumenting/exposition_formats/).
+**Без HTTP** — только логика накопления и сбора метрик. HTTP-сервис отдачи метрик (например, эндпоинт `/metrics`)
+планируется отдельно (с помощью [Autumn и Winow](https://autumn-library.github.io/)).
 
 ## Примеры использования
 
-Подключите библиотеку `#Использовать "prometheus-lib"` и обращайтесь к модулю `Prometheus.*`.
+Подключите библиотеку `#Использовать "prometheus"` и обращайтесь к модулю `Prometheus.*`.
 
 Примеры в каталоге **examples/**:
 
@@ -17,7 +20,9 @@
 
 ### Низкоуровневый API (при необходимости)
 
-Для кастомного реестра или тонкой настройки можно использовать модули напрямую: **PrometheusMetrics** (создание и операции над метриками), **PrometheusVec** (векторы и получение по лейблам), **PrometheusRegistry** (регистрация и сбор). Тесты в `tests/` покрывают оба варианта — через фасад и низкоуровневый API.
+Для кастомного реестра или тонкой настройки можно использовать модули напрямую: **PrometheusMetrics** (создание и
+операции над метриками), **PrometheusVec** (векторы и получение по лейблам), **PrometheusRegistry** (регистрация и
+сбор). Тесты в `tests/` покрывают оба варианта — через фасад и низкоуровневый API.
 
 ## Для разработчиков
 

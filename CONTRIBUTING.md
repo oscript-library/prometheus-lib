@@ -2,7 +2,8 @@
 
 ## Способы внести вклад
 
-- **Сообщить об ошибке** — создайте [issue](https://github.com/yellow-hammer/prometheus-lib/issues) с описанием и шагами воспроизведения.
+- **Сообщить об ошибке** — создайте [issue](https://github.com/yellow-hammer/prometheus/issues) с описанием и
+  шагами воспроизведения.
 - **Предложить улучшение** — issue с меткой или текстом «предложение».
 - **Улучшить документацию** — правки в README, docs, комментариях в коде.
 - **Написать код** — исправления, доработки API, тесты.
@@ -12,7 +13,8 @@
 1. Форкните репозиторий, создайте ветку под задачу (например `fix/описание` или `feat/название`).
 2. Установите зависимости: `opm run install` (или `opm install --dev -l`).
 3. Вносите изменения. Запуск тестов: `opm test`. Сборка пакета: `opm run build`.
-4. Оформите коммиты по [Conventional Commits](https://www.conventionalcommits.org/ru/v1.0.0/) (например `feat:`, `fix:`, `docs:`). Сообщения — на русском, где уместно.
+4. Оформите коммиты по [Conventional Commits](https://www.conventionalcommits.org/ru/v1.0.0/) (например `feat:`,
+   `fix:`, `docs:`). Сообщения — на русском, где уместно.
 5. Отправьте ветку и создайте Pull Request. Опишите изменения и при необходимости укажите связанные issues.
 
 ## Стандарты кода
@@ -29,7 +31,7 @@
 
 ## Вопросы и связь
 
-- [Issues](https://github.com/yellow-hammer/prometheus-lib/issues) — баги и предложения.
+- [Issues](https://github.com/yellow-hammer/prometheus/issues) — баги и предложения.
 - Контакт: [i.karlo@outlook.com](mailto:i.karlo@outlook.com).
 
 Внося вклад, вы соглашаетесь с тем, что он будет лицензирован под [MIT License](LICENSE).
